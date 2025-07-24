@@ -46,6 +46,3 @@ npm install
 
 ## Troubleshooting
 Make sure you have Node.js installed and available in your system's PATH.
-
-If you get The system cannot find the path specified, double-check that the folder chess-solver exists in the right location.
-
