@@ -1,0 +1,15 @@
+{
+  "name": "chess-solver",
+  "version": "1.0.0",
+  "description": "Simple chess solver using chess.js to find checkmate-in-1 moves",
+  "main": "main-chess.js",
+  "scripts": {
+    "start": "node main-chess.js",
+    "test": "echo \"No tests configured\""
+  },
+  "author": "Jyrycek",
+  "license": "MIT",
+  "dependencies": {
+    "chess.js": "^1.1.0"
+  }
+}

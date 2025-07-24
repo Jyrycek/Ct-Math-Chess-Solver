@@ -1,0 +1,10 @@
+[2025-01-19T09:23:47.347Z] Chyba při zpracování FEN: Invalid FEN: piece data is invalid (too many squares in rank)
+[2025-01-19T09:26:10.841Z] Chyba při zpracování FEN: Invalid FEN: piece data does not contain 8 '/'-delimited rows
+[2025-01-19T09:26:27.889Z] Chyba při zpracování FEN: Invalid FEN: piece data does not contain 8 '/'-delimited rows
+[2025-01-19T09:26:42.840Z] Chyba při zpracování FEN: Invalid FEN: piece data does not contain 8 '/'-delimited rows
+[2025-01-19T09:26:45.732Z] Chyba při zpracování FEN: Invalid FEN: piece data does not contain 8 '/'-delimited rows
+[2025-01-19T09:29:32.948Z] Chyba při zpracování FEN: Invalid FEN: piece data does not contain 8 '/'-delimited rows
+[2025-01-19T09:29:38.950Z] Chyba při zpracování FEN: Invalid FEN: piece data does not contain 8 '/'-delimited rows
+[2025-01-19T09:29:41.342Z] Chyba při zpracování FEN: Invalid FEN: piece data does not contain 8 '/'-delimited rows
+[2025-01-19T09:31:45.577Z] Chyba při zpracování FEN: Invalid FEN: piece data does not contain 8 '/'-delimited rows
+[2025-01-19T09:32:16.872Z] Chyba při zpracování FEN: Invalid FEN: piece data does not contain 8 '/'-delimited rows
