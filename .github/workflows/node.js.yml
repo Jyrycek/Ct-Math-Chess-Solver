@@ -1,0 +1,37 @@
+name: ChessSolver CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  install-and-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: List contents of root folder
+        run: ls -la
+
+      - name: List contents of modules/tools folder
+        run: ls -la modules/tools
+
+      - name: List contents of chess-solver folder (if exists)
+        run: ls -la modules/tools/chess-solver || echo "Folder not found"
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: modules/tools/chess-solver
+
+      - name: Start script
+        run: npm start
+        working-directory: modules/tools/chess-solver
